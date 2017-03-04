@@ -1,0 +1,36 @@
+@charset "UTF-8";
+/* CSS Document */
+#articleSummary{width:600px; font-size:13px; line-height:1.5;}
+
+#articleSummary dt{
+	float: left;
+	width: 65px;
+	font-weight: bold;
+	line-height:1.8;
+}
+#articleSummary dd{
+	overflow:hidden;
+	line-height:1.8;
+}
+
+#articleSummary dt#info{
+	float: left;
+	width: 95px;
+	font-weight: bold;
+}
+
+#articleSummary #address,
+#articleSummary #access,
+#articleSummary #units,
+#articleSummary #residence,
+#articleSummary #structure{margin-bottom:10px;}
+#articleSummary #address dt,
+#articleSummary #access dt,
+#articleSummary #units dt,
+#articleSummary #residence dt,
+#articleSummary #structure dt{float:left; width:95px; font-weight:bold;}
+#articleSummary #address dd,
+#articleSummary #access dd,
+#articleSummary #units dd,
+#articleSummary #residence dd,
+#articleSummary #structure dd{overflow:hidden; /zoom:1;}

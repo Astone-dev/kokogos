@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<content collectionGUID="B7D5F71E-3C82-4C73-ABF8-76A72BC7C076">
+  <lastEdited clientType="local-build-20100318" date="2010-03-18 06:28:29 +0900"/>
+  <textBox id="generic-header-attribute" dynamic="no" visible="yes">
+    <richText>&lt;b&gt;Come &amp; Worship&lt;/b&gt;</richText>
+  </textBox>
+  <textBox id="generic-body-attributes" dynamic="no" visible="yes">
+    <richText>&#x30AA;&#x30EA;&#x30B8;&#x30CA;&#x30EB;&#x66F2;&#x3092;&#x4E2D;&#x5FC3;&#x306B;&#x3001;J-Gospel&#x3084;&#x3059;&#x3089;&#x304E;&#x306E;&#x6B4C;&#x3092;&#x6B4C;&#x3044;&#x3001;&#x2028;&#x90FD;&#x5185;&#x3092;&#x62E0;&#x70B9;&#x306B;&#x6D3B;&#x52D5;&#x3057;&#x3066;&#x3044;&#x308B;&#x30D0;&#x30F3;&#x30C9;&#x3002;&#x2028; &#x30E1;&#x30F3;&#x30D0;&#x30FC;&#x306F;&#x30C0;&#x30D3;&#x30C7;&#x524D;&#x7530;(Vo,Ag)&#x3001;Sarah(As,Dr)&#x3001;&#x65E5;&#x51FA;&#x5B50;&#x3001;&#x2028;&#x9999;&#x7E54;&#x3001;&#x6075;(Cho)&#x3001;&#x771F;&#x559C;&#x5B50;(Cho,key)&#x3001;&#x306E;&#x305E;&#x307F;(b)&#x3001;Tatsuro(key,Eg) &#x2028;&#x30B9;&#x30ED;&#x30FC;&#x30D0;&#x30E9;&#x30FC;&#x30C9;&#x304B;&#x3089;&#x3001;&#x30EA;&#x30BA;&#x30DF;&#x30AB;&#x30EB;&#x306A;&#x66F2;&#x3001;&#x30E9;&#x30C3;&#x30D7;&#x3084;&#x30EC;&#x30B2;&#x30A8;&#x306A;&#x3069;&#x5E45;&#x5E83;&#x3044;&#x2028;&#x30B8;&#x30E3;&#x30F3;&#x30EB;&#x306E;&#x30B5;&#x30A6;&#x30F3;&#x30C9;&#x306B;&#x3001;&#x611B;&#x3068;&#x5E0C;&#x671B;&#x306E;&#x30E1;&#x30C3;&#x30BB;&#x30FC;&#x30B8;&#x3092;&#x4E57;&#x305B;&#x3066;&#x6B4C;&#x3063;&#x3066;&#x3044;&#x308B;&#x3002;&#xD;&#xFF12;&#x6708;&#x306B;&#x30EA;&#x30EA;&#x30FC;&#x30B9;&#x3057;&#x305F;&#xFF11;st&#x30A2;&#x30EB;&#x30D0;&#x30E0; &#x2028;&#x300C;God is Love&#xFF5E;&#x611B;&#x3053;&#x305D;&#x304C;&#x3059;&#x3079;&#x3066;&#x300D;&#x304C;&#x3001;&#x597D;&#x8A55;&#x767A;&#x58F2;&#x4E2D;&#xFF01;&#xD;&#xD;&lt;a href="http://arechinikawa.com/Come&amp;Worship.html"&gt;&#x30AA;&#x30D5;&#x30A3;&#x30B7;&#x30E3;&#x30EB;&#x30B5;&#x30A4;&#x30C8;&lt;/a&gt;</richText>
+  </textBox>
+  <textBox id="generic-datefield-attributes" dynamic="no" visible="yes">
+    <richText></richText>
+  </textBox>
+  <image id="generic-movie-attribute" dynamic="no" visible="yes" src="7_chimu_shao_jie_files/main_03.jpg" left="0px" top="0px" width="401px" height="164.0455px"/>
+  <textBox id="generic-title-attributes" dynamic="no" visible="yes">
+    <richText>&#x30C1;&#x30FC;&#x30E0;&#x7D39;&#x4ECB;</richText>
+  </textBox>
+</content>

@@ -1,0 +1,231 @@
+@charset "utf-8";
+
+/*
+  .basic
+-------------------------------------------------------
+*/
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,p,blockquote{margin:0;padding:0;}
+
+body {
+	background-color:#FFFFFF;
+	color: #333333;
+	font-family:'MS PGothic',Verdana,Arial,'ヒラギノ角ゴ Pro W3','Hiragino Kaku Gothic Pro',Osaka,sans-serif;
+	}
+
+body, p, li, td, th {
+	font-size :small;
+	line-height :1.6;
+	}
+
+img {border:none;}
+
+/*
+  .link
+-------------------------------------------------------
+*/
+a,a:visited{
+	color:#000066;
+	text-decoration:underline;
+	font-weight:normal;
+	}
+a:hover,a:active{
+	color:#000066;
+	text-decoration:none;
+	font-weight:normal;
+	}
+
+/*
+  .font
+-------------------------------------------------------
+*/
+
+.fontSizeS {font-size:80%;
+	*font-size:72%;}
+.fontSizeM {font-size:100%;}
+.fontSizeL {font-size:120%;}
+.txtSmaller{font-size:smaller;}
+.txtLarger {font-size:larger;}
+
+/*
+  .color
+-------------------------------------------------------
+*/
+
+.color-white { color:#FFFFFF;}
+.color-black { color:#000000;}
+.color-grey1 { color:#333333;}
+.color-grey2 { color:#666666;}
+.color-grey3 { color:#999999;}
+.color-grey4 { color:#cccccc;}
+.color-brown1 { color:#926601;}
+.color-violet1 { color:#67384E;}
+.color-red { color:#FF0000;}
+
+.backColor-white { background-color:#FFFFFF;}
+.backColor-black { background-color:#000000;}
+.backColor-grey1 { background-color:#333333;}
+.backColor-grey2 { background-color:#666666;}
+.backColor-grey3 { background-color:#999999;}
+.backColor-grey4 { background-color:#cccccc;}
+.backColor-brown2 {background-color:#DDC799;}
+
+/*
+  .margin
+-------------------------------------------------------
+*/
+
+.adm-t5	 {margin-top:5px  !important;}
+.adm-t10 {margin-top:10px !important;}
+.adm-t15 {margin-top:15px !important;}
+.adm-t20 {margin-top:20px !important;}
+.adm-t25 {margin-top:25px !important;}
+.adm-t30 {margin-top:30px !important;}
+.adm-t50 {margin-top:50px !important;}
+
+.adm-l5	 {margin-left:5px  !important;}
+.adm-l10 {margin-left:10px !important;}
+.adm-l15 {margin-left:15px !important;}
+.adm-l20 {margin-left:20px !important;}
+.adm-l25 {margin-left:25px !important;}
+.adm-l30 {margin-left:30px !important;}
+.adm-l40 {margin-left:40px !important;}
+.adm-l50 {margin-left:50px !important;}
+
+.adm-r5	 {margin-right:5px  !important;}
+.adm-r10 {margin-right:10px !important;}
+.adm-r15 {margin-right:15px !important;}
+.adm-r20 {margin-right:20px !important;}
+.adm-r25 {margin-right:25px !important;}
+.adm-r30 {margin-right:30px !important;}
+.adm-r50 {margin-right:50px !important;}
+
+.adm-b20 {margin-bottom:20px !important;}
+.adm-b30 {margin-bottom:30px !important;}
+
+
+/*
+  .align
+-------------------------------------------------------
+*/
+
+.alignC {text-align:center !important;}
+.alignL {text-align:left !important;}
+.alignR {text-align:right !important;}
+
+/*
+  .float
+-------------------------------------------------------
+*/
+
+.clear {
+	clear:both;
+	width:auto;
+	height:0!important;
+	margin :0;
+	padding:0;
+	font-size:0px;
+	line-height:0;
+	}
+	
+/*
+  .layout
+-------------------------------------------------------
+*/
+
+#wrapper{
+	margin:0;
+	padding:0;
+}
+#wrapperIn{
+	height:480px;
+	background-color:#000000;
+	color:#FFFFFF;
+}
+
+#contentIn{
+	height:auto;
+	margin:0;
+	padding:0;
+	background-image:url(../images/bg_top.gif);
+	background-repeat:repeat-x;
+}
+
+/*
+  .footer
+-------------------------------------------------------
+*/	
+
+#footer{
+	clear:both;
+	height:auto;
+	margin:20px 0 0 0;
+	padding:20px 0 20px 0;
+	border-top:1px solid #999999;
+	text-align:left;
+	vertical-align:top;
+}
+#footerIn{
+	width:880px;
+	margin:0 auto 0 auto;
+}
+#footerLink{
+	width:730px;
+	margin:0;
+	padding:0;
+	font-size:10px;
+	float:left;
+}
+#footerLogo{
+	width:130px;
+	margin:0;
+	padding:0;
+	text-align:right;
+	float:right;
+}
+
+#footer a,a:visited{
+	color:#000066;
+	text-decoration:underline;
+	font-weight:normal;
+	display:inline;
+	}
+#footer a:hover,a:active{
+	color:#000066;
+	text-decoration:none;
+	font-weight:normal;
+	}
+
+
+	
+
+/*--------------------
+
+	float clear
+
+--------------------*/
+.clearFix{
+    overflow:hidden;
+}
+
+.clearFix:after{
+    content: "";
+    display: block;
+    clear: both;
+    height: 0px;
+    overflow: hidden;
+}
+
+/*\*/
+* html .clearFix{
+    height: 1em;
+    overflow: visible;
+}
+/**/
+
+/* or */
+.clear{
+	clear:both;
+}
+
+
+	

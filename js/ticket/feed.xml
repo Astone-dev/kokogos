@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+ <id>urn:iweb:01C2B754-CA99-4BFB-8D61-A417C7C69575</id>
+ <title>Page list Atom feed</title>
+ <updated>2010-11-21T10:57:08+09:00</updated>
+ <link rel="self" href="feed.xml"/>
+ <generator>iWeb</generator>
+ <author>
+  <name>iWeb</name>
+ </author>
+ <entry>
+  <id>urn:iweb:24CCAF44-DF92-4E4E-A428-57408F288B59</id>
+  <title>チケット</title>
+  <title xmlns="urn:iweb:">チケット</title>
+  <in-navbar xmlns="urn:iweb:">24CCAF44-DF92-4E4E-A428-57408F288B59</in-navbar>
+  <link rel="alternate" href="chiketto.html"/>
+  <updated>2010-11-21T10:57:08.001+09:00</updated>
+  <content>チケット</content>
+ </entry>
+</feed>

@@ -1,0 +1,91 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ja" lang="ja" dir="ltr">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="Content-Style-Type" content="text/css" />
+<meta http-equiv="Content-Script-Type" content="text/javascript" />
+<meta name="robots" content="index,follow" />
+<title>TEST| こころごすぺる</title>
+<meta content="こころゴスペル,心ゴスペル,こころごすぺる,こころゴスペル,なつゴスペル,ふゆゴスペル,はるゴスペル,ゴスコン,j-gospel,ゴスペルコンサート,ゴスペル,Gospel,やすらぎの歌,コンサート" name="keywords" />
+<meta content="日本発のオリジナルゴスペル、J-gospelによる心暖まるコンサート。こころごすぺる生中継 " name="description" />
+<link rel="SHORTCUT ICON" href="/tlcccicon.png"><!--お気に入り用アイコン-->
+<link rel="apple-touch-icon" href="/tlcccicon.png"/><!--iphone用リンクアイコン-->
+<link href="/css/import3.css" rel="stylesheet" type="text/css" media="screen,tv,projection,print" />
+<link href="/css/module.css" rel="stylesheet" type="text/css" media="screen,tv,projection,print" />
+<link href="/css/quality.css" rel="stylesheet" type="text/css" media="screen,tv,projection,print" />
+<link rel="stylesheet" href="/css/colorbox.css" />
+<script type="text/javascript" src="/js/jquery-1.6.1.min.js"></script>
+<script type="text/javascript" src="/js/jquery.effectchain.js"></script>
+<script type="text/javascript" src="/js/jquery.colorbox-min.js"></script>
+<script>
+		jQuery(function($) {
+			$("body").effectChain({ target: "div" });
+		});
+</script>
+<script>
+            $(document).ready(function(){
+            
+                //Examples of how to assign the ColorBox event to elements
+                $(".group1").colorbox({rel:'group1'});
+                $(".ajax").colorbox();
+                // YouTubeの動画のサイズは「共有」→「埋め込みコード」に表示されるサイズを参考
+                //$(".youtube").colorbox({iframe:true, innerWidth:425, innerHeight:344});
+                $(".youtube").colorbox({iframe:true, innerWidth:640, innerHeight:360});
+                //Example of preserving a JavaScript event for inline calls.
+                $("#click").click(function(){ 
+                    $('#click').css({"background-color":"#f00", "color":"#fff", "cursor":"inherit"});
+                    return false;
+                });
+                
+            });
+</script>
+</head>
+
+<body>
+
+<div id="wrapper">
+
+<div id="header">
+<h1>こころごすぺる</h1>
+</div>
+
+<div id="menu">
+<ul>
+  <li id="menu01"><a href="/index.html"><img src="/images/menu_01.png"  /></a></li>
+  <li id="menu02"><a href="/cm.html"><img src="/images/menu_02.png"  /></a></li>
+  <li id="menu03"><a href="/group.html"><img src="/images/menu_03.png"  /></a></li>
+  <li id="menu04"><a href="/ticket.html"><img src="/images/menu_04.png"  /></a></li>
+  <li id="menu05"><a href="/album.html"><img src="/images/menu_05.png"  /></a></li>
+  <li id="menu06"><a href="/history.html"><img src="/images/menu_06.png"  /></a></li>
+  <li id="menu07"><a href="/contact.html"><img src="/images/menu_07.png"  /></a></li>
+</ul>
+</div>
+
+<div id="navi">
+<a href="/index.html">TEST</a>　＞　TEST</div>
+
+<div id="content" style="text-align: center;">
+
+<div id="cmNav" style="margin:20px auto 0 auto; width:770px;">
+	<div style="text-align:left;">
+		<p style="font-size:150%; font-weight:bold">TEST</p>
+	</div>
+	<iframe width="770" height="433" src="https://www.youtube.com/embed/Y223wFdVLyc" frameborder="0" allowfullscreen></iframe>
+
+	
+	
+</div>
+
+  <p style="height:100px; clear:both;">&nbsp;</p>
+</div>
+
+<div id="wrap_footer">
+<div id="footer">
+<p>Copyright (c) arechinikawa.com All rights Reseved</p>
+</div>
+</div>
+</div>
+
+<?php include_once("/analyticstracking.php") ?>
+</body>
+</html>

@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<rss xmlns:iweb="http://www.apple.com/iweb" version="2.0">
+  <channel>
+    <title>&#x53C2;&#x52A0;&#x30A2;&#x30FC;&#x30C6;&#x30A3;&#x30B9;&#x30C8;</title>
+    <link>file://localhost/Users/moseshikarud/Sites/team/can_jiaatisuto</link>
+    <description>&#xFF14;&#x6708;&#x306E;&#x30B3;&#x30F3;&#x30B5;&#x30FC;&#x30C8;&#x51FA;&#x6F14;&#x3059;&#x308B;&#x30C1;&#x30FC;&#x30E0;&#x3092;&#x3054;&#x7D39;&#x4ECB;&#x3057;&#x307E;&#x3059;&#x3002;
+</description>
+    <iweb:dateFormat>yyyy&#x5E74;M&#x6708;d&#x65E5;EEEE</iweb:dateFormat>
+    <iweb:baseURL>file://localhost/Users/moseshikarud/Sites/team/can_jiaatisuto</iweb:baseURL>
+    <iweb:maximumSummaryItems>5</iweb:maximumSummaryItems>
+  </channel>
+</rss>

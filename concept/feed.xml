@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+ <id>urn:iweb:C6B76C7F-3255-4682-BEAB-4AFA8E294A64</id>
+ <title>Page list Atom feed</title>
+ <updated>2010-03-18T06:28:14+09:00</updated>
+ <link rel="self" href="feed.xml"/>
+ <generator>iWeb</generator>
+ <author>
+  <name>iWeb</name>
+ </author>
+ <entry>
+  <id>urn:iweb:70340A99-9BCB-4404-B2CB-1446347A9E34</id>
+  <title>コンセプト</title>
+  <title xmlns="urn:iweb:">コンセプト</title>
+  <in-navbar xmlns="urn:iweb:">70340A99-9BCB-4404-B2CB-1446347A9E34</in-navbar>
+  <link rel="alternate" href="konseputo.html"/>
+  <updated>2010-03-18T06:28:14.001+09:00</updated>
+  <content>コンセプト</content>
+ </entry>
+</feed>

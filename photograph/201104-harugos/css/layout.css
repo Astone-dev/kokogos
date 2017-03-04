@@ -1,0 +1,101 @@
+@charset "utf-8";
+
+/* CSS Document */
+
+body{
+	background-color:#EAE9FF;
+	background-attachment: fixed;
+	background-image: url(../images/bg_body.jpg);
+	background-position: right top;
+}
+
+#wrapper {
+	background-color: #FC9;
+}
+#header {
+	clear: both;
+	overflow: hidden;
+	border-top: 3px solid #3333CC;
+}
+#header #header_inner {
+	width: 940px;
+	margin-right: auto;
+	margin-left: auto;
+	overflow: hidden;
+	position: relative;
+}
+#header #header_inner #group {
+	display: block;
+	position: absolute;
+	top: 1px;
+	right: 0px;
+}
+
+#main {
+	clear: both;
+	background-color: #333333;
+	height: 430px;
+	border-top: 2px solid #CCCCCC;
+	border-bottom: 2px solid #999999;
+}
+#main #movie {
+	width: 940px;
+	margin-right: auto;
+	margin-left: auto;
+	position: relative;
+	overflow: auto;
+	color: #FFFFFF;
+	height:430px;
+	
+}
+#main #info {
+	width: 250px;
+	position: absolute;
+	top: -50px;
+	right: 0px;
+	font-weight: bold;
+}
+
+#content  {
+	clear: both;
+	position: relative;
+}
+#content #photo {
+	width: 916px;
+	_width: 940px;
+	overflow: hidden;
+	margin-right: auto;
+	margin-left: auto;
+	background-color: #F4F8FF;
+	padding-top: 20px;
+	padding-left: 20px;
+	margin-bottom: 20px;
+	position: relative;
+	border: 2px solid #999;
+}
+
+#footer {
+	clear: both;
+	overflow: hidden;
+	border-top: 1px solid #DDDDDD;
+	background-color: #003399;
+	color: #FFFFFF;
+}
+#footer #footer_inner {
+	text-align: center;
+	width: 940px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: 20px;
+}
+
+#copyright {
+	color: #FFFFFF;
+	background-color: #00AEE5;
+	clear: both;
+	width: 880px;
+	margin-right: auto;
+	margin-left: auto;
+	text-align: center;
+	line-height: 2em;
+}

@@ -1,0 +1,38 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	width: auto;
+	height:auto;
+	margin-right: auto;
+	margin-left: auto;
+	background: url(../images/bg_body.png) repeat;
+}
+
+#wrapper {
+	width: 770px;
+	background: none #ffffff;
+	padding: 15px;
+	margin: 0 auto;
+}
+
+#header {
+	width:770px;
+	float:left;
+}
+
+#content {
+	width:770px;
+	float:left;
+	clear: both;
+}
+
+#footer {
+	width:770px;
+	background-color: #535353;
+	color: #ffffff;
+	text-align: center;
+	clear: both;
+	line-height:40px;
+}
+

@@ -1,0 +1,37 @@
+@charset "utf-8";
+
+/*
+  .basic
+-------------------------------------------------------
+*/
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,p,blockquote{margin:0;padding:0;}
+
+body {
+	background-color:#FFFFFF;
+	color: #333333;
+	font-family:'MS PGothic',Verdana,Arial,'ヒラギノ角ゴ Pro W3','Hiragino Kaku Gothic Pro',Osaka,sans-serif;
+	}
+
+body, p, li, td, th {
+	font-size :small;
+	line-height :1.6;
+	}
+
+img {border:none;}
+
+
+	
+/*
+  .layout
+-------------------------------------------------------
+*/
+
+#wrapper{
+	margin:0;
+	padding:0;
+}
+#wrapperIn{
+	width:1024px;
+	background-color:#C5D7EB;
+	margin:0 auto 0 auto;
+}

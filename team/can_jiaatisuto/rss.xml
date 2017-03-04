@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:iweb="http://www.apple.com/iweb" version="2.0">
+  <channel>
+    <title>参加アーティスト紹介</title>
+    <link>file://localhost/Users/moseshikarud/Sites/team/can_jiaatisuto/can_jiaatisuto.html</link>
+    <description>４月のコンサート出演するチームをご紹介します。&lt;br/&gt;</description>
+    <generator>iWeb 3.0.3</generator>
+    <ttl>60</ttl>
+    <itunes:explicit>no</itunes:explicit>
+    <itunes:subtitle>４月のコンサート出演するチームをご紹介します。&#13;</itunes:subtitle>
+    <itunes:summary>４月のコンサート出演するチームをご紹介します。&#13;</itunes:summary>
+    <language>ja</language>
+    <item>
+      <title>Sounds at the beach</title>
+      <link>file://localhost/Users/moseshikarud/Sites/team/can_jiaatisuto/entori/A1CC8EA0-2196-499A-BFD0-1E5910F81976.html</link>
+      <guid isPermaLink="false">56aa21d6-de45-4b1b-9126-ba57d09002de</guid>
+      <pubDate>Thu, 12 Oct 2006 09:09:25 +0900</pubDate>
+      <description>&lt;a href=&quot;file://localhost/Users/moseshikarud/Sites/team/Media/skd281646sdc_300x300-1.mp4&quot;&gt;&lt;img src=&quot;file://localhost/Users/moseshikarud/Sites/team/can_jiaatisuto/Media/skd281646sdc_300x300-2.jpg&quot; style=&quot;float:left; padding-right:10px; padding-bottom:10px; width:157px; height:157px;&quot;/&gt;&lt;/a&gt;Consectetuer arcu ipsum ornare pellentesque vehicula, in vehicula diam, ornare magna erat felis wisi a risus. Justo fermentum id. Malesuada eleifend, tortor molestie, a fusce  a vel et. Mauris at suspendisse, neque aliquam faucibus adipiscing, vivamus in. Wisi mattis leo suscipit nec amet,  nisl fermentum tempor ac a, augue in eleifend in venenatis, cras sit id in vestibulum felis in, sed ligula. In sodales suspendisse mauris quam etiam erat, quia tellus convallis eros rhoncus diam orci, porta lectus esse adipiscing posuere et, nisl arcu vitae laoreet.</description>
+      <enclosure url="file://localhost/Users/moseshikarud/Sites/team/Media/skd281646sdc_300x300-1.mp4" length="25828" type="video/mp4"/>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>00:00:00</itunes:duration>
+      <itunes:subtitle>Consectetuer arcu ipsum ornare pellentesque vehicula, in vehicula diam, ornare magna erat felis wisi a risus. Justo fermentum id. Malesuada eleifend, tortor molestie, a fusce  a vel et. Mauris at suspendisse, neque aliquam faucibus adipiscing, viva</itunes:subtitle>
+      <itunes:summary>Consectetuer arcu ipsum ornare pellentesque vehicula, in vehicula diam, ornare magna erat felis wisi a risus. Justo fermentum id. Malesuada eleifend, tortor molestie, a fusce  a vel et. Mauris at suspendisse, neque aliquam faucibus adipiscing, vivamus in. Wisi mattis leo suscipit nec amet,  nisl fermentum tempor ac a, augue in eleifend in venenatis, cras sit id in vestibulum felis in, sed ligula. In sodales suspendisse mauris quam etiam erat, quia tellus convallis eros rhoncus diam orci, porta lectus esse adipiscing posuere et, nisl arcu vitae laoreet.</itunes:summary>
+    </item>
+  </channel>
+</rss>

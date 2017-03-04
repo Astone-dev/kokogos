@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<content collectionGUID="B7D5F71E-3C82-4C73-ABF8-76A72BC7C076">
+  <lastEdited clientType="local-build-20100318" date="2010-03-18 06:28:29 +0900"/>
+  <textBox id="generic-header-attribute" dynamic="no" visible="yes">
+    <richText>&lt;b&gt;Gospel Seed&lt;/b&gt;</richText>
+  </textBox>
+  <textBox id="generic-body-attributes" dynamic="no" visible="yes">
+    <richText>&#x30E8;&#x30BB;&#x30D5;&#x4E09;&#x672C;&#x677E;&#x3001;&#x6625;&#x7F8E;&#x306E;&#xFF12;&#x540D;&#x306E;&#x30E6;&#x30CB;&#x30C3;&#x30C8;&#x3002;&#xD;&#x6771;&#x4EAC;&#x3092;&#x62E0;&#x70B9;&#x3068;&#x3057;&#x3001;&#x8DEF;&#x4E0A;&#x3084;&#x5404;&#x65BD;&#x8A2D;&#x3067;&#xFF2A;&#x30B4;&#x30B9;&#x30DA;&#x30EB;&#xFF08;&#x65E5;&#x672C;&#x8A9E;&#x30B4;&#x30B9;&#x30DA;&#x30EB;&#xFF09;&#x3092;&#x4E2D;&#x5FC3;&#x306B;&#x6D3B;&#x52D5;&#x3092;&#x5C55;&#x958B;&#x3057;&#x3066;&#x3044;&#x308B;&#x3002;&#xD;&#xA0;&#xD;&#x9577;&#x91CE;&#x770C;&#x306E;&#x767D;&#x99AC;&#x3067;&#x884C;&#x306A;&#x308F;&#x308C;&#x305F;&#x3001;&#x5168;&#x56FD;&#x30B4;&#x30B9;&#x30DA;&#x30EB;&#x30B0;&#x30EB;&#x30FC;&#x30D7;&#x30B3;&#x30F3;&#x30C6;&#x30B9;&#x30C8;&#x6C7A;&#x52DD;&#x5927;&#x4F1A;&#x3067;&#x306F;&#xFF12;&#xFF10;&#xFF10;&#xFF17;&#x5E74;&#xFF14;&#x4F4D;&#x5165;&#x8CDE;&#x3001;&#xFF12;&#xFF10;&#xFF10;&#xFF18;&#x5E74;&#xFF13;&#x4F4D;&#x5165;&#x8CDE;&#x3092;&#x679C;&#x305F;&#x3059;&#x3002;&#xD;&#xFF12;&#xFF10;&#xFF10;&#xFF17;&#x5E74;&#xFF15;&#x6708;&#x306B;&#x306F;&#x30ED;&#x30B5;&#x30F3;&#x30BC;&#x30EB;&#x30B9;&#x3067;&#x884C;&#x306A;&#x308F;&#x308C;&#x305F;&#x3001;&#x30D6;&#x30E9;&#x30C3;&#x30AF;&#x30B4;&#x30B9;&#x30DA;&#x30EB;&#x6700;&#x5927;&#x306E;&#x56E3;&#x4F53;&#xFF27;&#xFF2D;&#xFF37;&#xFF21;&#x304B;&#x3089;&#x62DB;&#x5F85;&#x3092;&#x53D7;&#x3051;&#x3001;&#x4E26;&#x307F;&#x3044;&#x308B;&#x30B4;&#x30B9;&#x30DA;&#x30EB;&#x30B7;&#x30F3;&#x30AC;&#x30FC;&#x3068;&#x3068;&#x3082;&#x306B;&#x540C;&#x3058;&#x30B9;&#x30C6;&#x30FC;&#x30B8;&#x306B;&#x7ACB;&#x3063;&#x305F;&#x3002;&#xD;&#x30AA;&#x30EA;&#x30B8;&#x30CA;&#x30EB;&#x4F5C;&#x54C1;&#x3068;&#x3057;&#x3066;&#x3001;&#x30BB;&#x30EB;&#x30D5;&#x30FB;&#x30D7;&#x30ED;&#x30C7;&#x30E5;&#x30FC;&#x30B9;&#x306B;&#x3088;&#x308B;&#xFF23;&#xFF24;&#xD;&#x300C;Give praise to the Lord&#x300D;&#x300C;&#xFF2B;&#xFF25;&#xFF39;&#x300D;&#x300C;&#x541B;&#x304C;&#x751F;&#x307E;&#x308C;&#x308B;&#x524D;&#x304B;&#x3089;&#x300D;&#x300C;MARANATHA&#x300D;&#xFF14;&#x679A;&#x3092;&#x30EA;&#x30EA;&#x30FC;&#x30B9;&#x3002;&#xD;&#x4ED6;&#x306E;&#xFF2A;&#x30B4;&#x30B9;&#x30DA;&#x30EB;&#x30E6;&#x30CB;&#x30C3;&#x30C8;&#x306E;&#x30A2;&#x30EC;&#x30F3;&#x30B8;&#x3001;&#xFF23;&#xFF24;&#x5236;&#x4F5C;&#x3082;&#x624B;&#x304C;&#x3051;&#x3066;&#x3044;&#x308B;&#x3002;&#xD;&#xD;&lt;a href="http://gospelseed.arechinikawa.com/"&gt;&#x30AA;&#x30D5;&#x30A3;&#x30B7;&#x30E3;&#x30EB;&#x30B5;&#x30A4;&#x30C8;&lt;/a&gt;</richText>
+  </textBox>
+  <textBox id="generic-datefield-attributes" dynamic="no" visible="yes">
+    <richText></richText>
+  </textBox>
+  <image id="generic-movie-attribute" dynamic="no" visible="yes" src="7_chimu_shao_jie_2_files/main_02.jpg" left="0px" top="0px" width="402px" height="164.4545px"/>
+  <textBox id="generic-title-attributes" dynamic="no" visible="yes">
+    <richText>&#x30C1;&#x30FC;&#x30E0;&#x7D39;&#x4ECB;&#x3000;&#x3000;&#x3000;&#x3000;&#x3000;&#x3000;&#x3000;&#x3000;</richText>
+  </textBox>
+</content>

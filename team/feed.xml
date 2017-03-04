@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+ <id>urn:iweb:DC808B80-8AF4-429D-B5D3-6EC7EE4A4D2C</id>
+ <title>Page list Atom feed</title>
+ <updated>2011-03-10T11:29:55+09:00</updated>
+ <link rel="self" href="feed.xml"/>
+ <generator>iWeb</generator>
+ <author>
+  <name>iWeb</name>
+ </author>
+ <entry>
+  <id>urn:iweb:852BE1E2-8242-4699-8CBC-C6D32496A1F9</id>
+  <title>参加アーティスト</title>
+  <title xmlns="urn:iweb:">参加アーティスト</title>
+  <in-navbar xmlns="urn:iweb:">852BE1E2-8242-4699-8CBC-C6D32496A1F9</in-navbar>
+  <link rel="alternate" href="can_jiaatisuto/can_jiaatisuto.html"/>
+  <updated>2005-09-21T10:08:38+09:00</updated>
+  <content>参加アーティスト</content>
+ </entry>
+</feed>

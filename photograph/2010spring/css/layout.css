@@ -1,0 +1,52 @@
+@charset "utf-8";
+/* CSS Document */
+
+#wrapper {
+	width: 940px;
+	margin-right: auto;
+	margin-left: auto;
+}
+#header {
+	clear: both;
+	width: 940px;
+	overflow: hidden;
+	background-color: #FFFFFF;
+}
+
+#menu {
+	clear: both;
+	width: 940px;
+}
+#main {
+	clear: both;
+	width: 940px;
+	overflow: hidden;
+	margin-bottom: 10px;
+}
+#content  {
+	clear: both;
+	width: 940px;
+	margin-bottom: 20px;
+}
+#content #content_left {
+	float: left;
+	width: 180px;
+	margin-right: 10px;
+	overflow: hidden;
+}
+#content #content_center {
+	float: left;
+	width: 560px;
+	margin-right: 10px;
+	overflow: hidden;
+}
+#content #content_right {
+	float: right;
+	width: 180px;
+	overflow: hidden;
+}
+#footer {
+	clear: both;
+	width: 940px;
+	overflow: hidden;
+}

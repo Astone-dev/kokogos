@@ -1,0 +1,55 @@
+@charset "utf-8";
+/* CSS Document */
+
+#header {
+	height: 79px;
+}
+
+#header h1 {
+	float: left;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+#header #header_right {
+	float: right;
+	text-align: right;
+	width: 630px;
+	height: 79px;
+	overflow: hidden;
+}
+#header #header_right #header_info {
+	float: right;
+	height: 10px;
+	width: 630px;
+}
+
+#header #header_right #head_navi {
+	text-align: right;
+	margin-top: 5px;
+	width: 630px;
+	height: 25px;
+	overflow: hidden;
+}
+#header  #header_right  #head_navi h3 {
+	margin-right: 10px;
+	padding-right: 10px;
+	border-right: 1px solid #333333;
+	float: right;
+	font-size: 110%;
+	margin-top: 2px;
+}
+#header    #header_right    #head_navi img  {
+	float: right;
+	line-height: 20px;
+
+}
+#header #header_right #head_language {
+	width: 630px;
+	float: right;
+	overflow: hidden;
+}
+#header  #header_right  #head_language  li {
+	padding-right: 5px;
+	margin-top: 6px;
+	float: right;
+}
