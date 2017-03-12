@@ -1,2 +1,2 @@
-AddHandler php5.6-script .html
+AddHandler php5.4-script .html
 ErrorDocument 404 /404.html
