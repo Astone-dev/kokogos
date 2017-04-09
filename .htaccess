@@ -1,9 +1,3 @@
 AddHandler php5.6-script .php
 AddHandler php5.6-script .html
 ErrorDocument 404 /404.html
-
-AuthUserfile /home/sites/heteml/users/t/h/e/the-vision/web/kokogos/live/.htpasswd
-AuthGroupfile /dev/null
-AuthName "Please enter your ID and password"
-AuthType Basic
-require valid-user
