@@ -4,4 +4,4 @@ AuthName "Please enter your ID and password"
 AuthType Basic
 require valid-user
 
-ErrorDocument 401 /home/sites/heteml/users/t/h/e/the-vision/web/kokogos/401.html
+ErrorDocument 401 /401.html
