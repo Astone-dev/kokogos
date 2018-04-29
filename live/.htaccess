@@ -3,3 +3,5 @@ AuthGroupfile /dev/null
 AuthName "Please enter your ID and password"
 AuthType Basic
 require valid-user
+
+ErrorDocument 401 http://gospelconcert.jp/401.html
