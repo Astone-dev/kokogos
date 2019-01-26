@@ -1573,7 +1573,7 @@ dl.topList dd{
 }
 
 #topImg{
-    background-image: url("/images/top/top_pc.png");
+    background-image: url("/2019/images/top/top_pc.png");
     background-repeat: no-repeat;
     background-size: cover;
     display: block;
@@ -1582,7 +1582,7 @@ dl.topList dd{
 }
 @media (max-width: 768px) {
     #topImg{
-        background-image: url("/images/top/top_sp.png");
+        background-image: url("/2019/images/top/top_sp.png");
         background-repeat: no-repeat;
         background-size: cover;
         display: block;
