@@ -1625,3 +1625,15 @@ dl.topList dd{
   top: 0;
   left: 0;
 }
+
+.sticky-sidebar ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* 子要素をflexboxにより中央に配置する */
+    align-items: center;  /* 子要素をflexboxにより中央に配置する */
+    width: 100px; /* 見た目用 */
+    height: 50px; /* 見た目用 */
+}
+.sticky-sidebar li{
+    width: 50%;
+}
