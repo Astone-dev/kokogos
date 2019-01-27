@@ -17,7 +17,7 @@ if ( $senderName && $senderEmail && $message ) {
   $recipient = RECIPIENT_NAME . " <" . RECIPIENT_EMAIL . ">";
   $headers = "From: " . $senderName . " <" . $senderEmail . ">\n";
   $headers .= "MIME-Version: 1.0\n"; 
-  $headers .= "Content-Type: text/HTML; charset=ISO-8859-1\n";
+  $headers .= "Content-Type: text/HTML; charset=utf-8\n";
   $success = mail( $recipient, EMAIL_SUBJECT, $message, $headers );
 }
 
