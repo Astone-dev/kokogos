@@ -178,7 +178,7 @@ div#preloader {
   background-repeat: no-repeat; 
   background-position: center; 
   background-size: 248px 81px;
-  margin: -100px 0 0 -123px; 
+  margin: -50px 0 0 -123px; 
 }
 
 /* 2. Header
@@ -1568,6 +1568,14 @@ fieldset h1 {
     width: 100%;
 }
 
+.logo{
+    width: 128px;
+}
+@media (max-width: 768px) {
+    .logo{
+        width: 100%;
+    }
+}
 
 dl.topList{
     font-size: 1.6rem;
