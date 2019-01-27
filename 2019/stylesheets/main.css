@@ -1569,8 +1569,12 @@ fieldset h1 {
 }
 
 
+dl.topList{
+    font-size: 1.6rem;
+}
 dl.topList dd{
     margin-bottom: 1rem;
+    line-height: 2.8rem;
 }
 
 #topImg{
