@@ -1635,5 +1635,15 @@ dl.topList dd{
     height: 50px; /* 見た目用 */
 }
 .sticky-sidebar li{
-    width: 50%;
+    width: 35%;
+}
+
+.spOnly{
+    display: none;
+}
+
+@media (max-width: 768px) {
+    .spOnly{
+        display: block;
+    }
 }
