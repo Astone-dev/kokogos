@@ -162,7 +162,6 @@ body.preloader-running #ajax-content{
 div#preloader { 
   background: none repeat scroll 0 0 white; 
   height: 100%; 
-  left: 240px; 
   position: fixed;
   top: 0; 
   width: 100%; 
@@ -170,16 +169,16 @@ div#preloader {
 }
 
 #status { 
-  width: 200px; 
-  height: 200px; 
+  width: 248px; 
+  height: 81px; 
   position: fixed; 
   left: 50%; 
   top: 50%; 
-  background-image: url(../images/loader.gif); 
+  background-image: url(../images/loader.png); 
   background-repeat: no-repeat; 
   background-position: center; 
-  background-size: 48px 48px;
-  margin: -100px 0 0 -100px; 
+  background-size: 248px 81px;
+  margin: -100px 0 0 -123px; 
 }
 
 /* 2. Header
