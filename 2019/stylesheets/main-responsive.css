@@ -12,17 +12,19 @@ there.
 /* Larger than Desktop HD */
 @media (max-width: 1200px) {
   .container{
-    max-width: 700px;
+/*    max-width: 700px;*/
   }
 }
 
 /* Larger than desktop */
 @media (max-width: 992px) {
+/*
   .container{
     max-width: 500px;
   }
+*/
   .text-left, .text-right{
-    text-align: center;
+    text-align: left;
   }
   .img-responsive{
     display: inline-block;
@@ -32,12 +34,14 @@ there.
 /* Larger than tablet */
 @media (max-width: 768px) {
   .container{
+/*
     width: 668px;
     padding-left: 50px;
     padding-right: 50px;
+*/
   }
   .text-left, .text-right, .mastfoot, .credits, .services-item{
-    text-align: center;
+    text-align: left;
   }
   .img-responsive{
     display: inline-block;
@@ -154,13 +158,14 @@ there.
   ul.slimmenu.collapsed li .sub-collapser, ul.slimmenu > li > a:first-child{
     font-size: 16px;
     line-height: 23px;
-    padding: 3px 0;
+    padding: 10px 0;
   }
   ul.slimmenu{
-    padding: 25px 25px 50px;
+    padding: 25px 25px 30px;
+    opacity: 0.94;
   }
   ul.slimmenu li a{
-    padding: 3px 0;
+    padding: 10px 0;
   }
   .elements-counter{
     width: 100%;
@@ -176,7 +181,7 @@ there.
     line-height: 21px;
   }
     p{
-        padding: 0 10%;
+/*        padding: 0 10%;*/
         text-align: left;
     }
 }
