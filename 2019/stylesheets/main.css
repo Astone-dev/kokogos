@@ -1601,10 +1601,10 @@ dl.topList dd{
     #topImg{
         background-image: url("/2019/images/top/top_sp.png");
         background-repeat: no-repeat;
-        background-size: cover;
+        background-size: contain;
         display: block;
         width: 100%;
-        max-height: 661px;
+        height: 744px;
     }
 }
 
