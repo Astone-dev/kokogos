@@ -165,7 +165,7 @@
 
     <section class="mastwrap-outer cd-main-content">
 
-        <!-- MASTER CONTENT
+    <!-- MASTER CONTENT
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
         <section id="ajax-content" class="mastwrap spaced-left">
 
@@ -217,7 +217,52 @@
                         </article>
                     </div>
                 </div>
-            </section>	
+            </section>
+			
+			
+            <section id="ajax-content" class="mastwrap spaced-left">
+      
+    
+
+            <section class="sub-wrap">
+                <div class="container">
+                <div class="row">
+            <article class="col-md-6 text-left contact-box add-top-half">
+                <h1 class="font2 dark">お問い合わせ</h1>
+                <div class="liner color-bg"></div>
+                
+                <div class="form-wrapper">
+                   <div id="contact-form-wrap">
+                  <div class="contact-item pad-common ">
+                    <div class="alert alert-error error color-bg " id="fname">
+                      <p class="white">Name must not be empty</p>
+                    </div>
+                    <div class="alert alert-error  error color-bg" id="fmail">
+                      <p class="white">Please provide a valid email</p>
+                    </div>
+                     <div class="alert alert-error  error color-bg" id="fmsg">
+                       <p class="white">Message should not be empty</p>
+                     </div>
+                      <form name="myform" id="contactForm" action="/2019/contact/sendcontact.php" enctype="multipart/form-data" method="post" accesskey="utf-8"> 
+                        <article>
+                          <input type="text" placeholder="お名前" id="name" name="name" size="100" class="border-form font2">
+                        </article>
+                        <article>
+                           <input type="text" placeholder="メールアドレス" name="email" id="email" size="30" class="border-form font2">
+                         </article>
+                         <article>
+                          <textarea placeholder="お問い合わせ内容" name="message" cols="40" rows="8" id="msg" class="border-form font2"></textarea>
+                          <div class="add-top-quarter  text-left">
+                            <button class="btn btn-otto btn-otto-color" id="submit" name="submit" type="submit">メッセージを送信</button>
+                          </div>
+                        </article>
+                     </form>
+                  </div>
+            </div>
+
+                </div>
+                <!-- form-wrapper:ends -->
+			
 			
 
             <!-- FOOTER
