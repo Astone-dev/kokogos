@@ -1334,7 +1334,6 @@ fieldset h1 {
   width: 24px;
 }
 .project-title{
-  text-transform: uppercase;
   letter-spacing: 2px;
   font-size: 32px;
   line-height: 46px;
@@ -1479,6 +1478,9 @@ fieldset h1 {
 .add-bottom-quarter{
   margin-bottom: 30px;
 }
+.add-bottom-anEighth{
+  margin-bottom: 15px;
+}
 .pad{
   padding: 60px;
 }
@@ -1565,6 +1567,9 @@ fieldset h1 {
 }
 .fitImg{
     width: 100%;
+    display: block;
+    max-width: 100%;
+    height: auto;
 }
 
 .logo{
