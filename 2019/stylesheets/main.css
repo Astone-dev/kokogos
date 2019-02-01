@@ -1601,7 +1601,7 @@ dl.topList dd{
     background-position: center;
     display: block;
     width: 100%;
-    height: 700px;
+    height: 77.5vh;
 }
 @media (max-width: 768px) {
     #topImg{
