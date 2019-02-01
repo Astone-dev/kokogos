@@ -1597,10 +1597,11 @@ dl.topList dd{
 #topImg{
     background-image: url("/2019/images/top/top_pc.png");
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: contain;
+    background-position: center;
     display: block;
     width: 100%;
-    height: 1050px;
+    height: 700px;
 }
 @media (max-width: 768px) {
     #topImg{
