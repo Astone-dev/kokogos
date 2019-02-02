@@ -1575,11 +1575,6 @@ fieldset h1 {
 .logo{
     width: 128px;
 }
-@media (max-width: 768px) {
-    .logo{
-        width: 100%;
-    }
-}
 
 dl.topList{
     font-size: 1.6rem;
