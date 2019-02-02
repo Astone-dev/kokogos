@@ -180,6 +180,13 @@ div#preloader {
   background-size: 248px 81px;
   margin: -50px 0 0 -123px; 
 }
+@media (max-width: 768px) {
+    #status { 
+        width: 245px;
+        height: 60px;
+        background-size: 170px 50px;
+        background-position: center;
+}
 
 /* 2. Header
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
