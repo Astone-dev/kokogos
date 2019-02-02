@@ -153,7 +153,7 @@ there.
     line-height: 25px;
   }
   .welcome-heading h1 span, .caption h1{
-    padding: 10px 10px 10px 14px;
+    padding: 10px 10px 10px 0;
   }
   ul.slimmenu.collapsed li .sub-collapser, ul.slimmenu > li > a:first-child{
     font-size: 16px;
