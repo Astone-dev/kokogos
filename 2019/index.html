@@ -24,7 +24,10 @@
     </div>
 
 
-    <!-- mobile only navigation : starts -->
+    <!-- nav
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <?php include (dirname(__FILE__) . '/inc/nav.html'); ?>
+    
     <nav class="mobile-nav">
         <ul class="slimmenu">
             <li><a href="/2019/">ホーム</a></li>
@@ -34,10 +37,7 @@
             <li><a href="/2019/contact/">お問い合わせ</a></li>
         </ul>
     </nav>
-    <!-- mobile only navigation : ends -->
-
-    <!-- Header
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    
     <header class="masthead white-bg fullheight">
         <div class="valign">
             <div class="inner">
@@ -54,40 +54,17 @@
             </div>
         </div>
 
-
-
     </header>
-
-
-    <!-- sub navigation panel : starts -->
-<!--
-    <section class="sub-nav-wrap fullheight dark-bg white font2">
-        <div class="valign">
-
-             sub navigation section 
-            <ul class="sub-nav sub-nav-pages">
-                <li><a href="../2019/history/20171222/">2017.12.22</a></li>
-                <li><a href="../2019/history/20170811/">2017.08.11</a></li>
-                <li><a href="../2019/history/20101210/">2010.12.10</a></li>
-                <li><a href="../2019/history/20100821/">2010.08.21</a></li>
-                <li><a href="../2019/history/20100402/">2010.04.02</a></li>
-                <li><a href="../2019/history/20091214/">2009.12.14</a></li>
-            </ul>
-
-        </div>
-    </section>
--->
-    <!-- sub navigation panel : ends -->
 
 
     <section class="sticky-sidebar white-bg fullheight text-center">
         <div class="valign">
             <ul class="">
-                <li><a href="https://www.instagram.com/kokorogospel/" target="_blank"><img alt="Instagram" title="" src="images/social/03.svg"></a></li>
-                <li><a href="https://www.facebook.com/kokorogospel/" target="_blank"><img alt="facebook page" title="" src="images/social/02.svg"></a></li>
-                <li><a href="#todo" target="_blank"><img alt="Twitter" title="" src="images/social/01.svg"></a></li>
+                <li><a href="https://www.instagram.com/kokorogospel/" target="_blank"><img alt="Instagram" title="" src="/2019/images/social/03.svg"></a></li>
+                <li><a href="https://www.facebook.com/kokorogospel/" target="_blank"><img alt="facebook page" title="" src="/2019/images/social/02.svg"></a></li>
+                <li><a href="#todo" target="_blank"><img alt="Twitter" title="" src="/2019/images/social/01.svg"></a></li>
             </ul>
-      </div>
+        </div>
     </section>
 
 
@@ -130,7 +107,7 @@
 
             <section class="sub-wrap add-top-half project-info">
                 <div class="container">
-<!--
+                    <!--
                     <div class="row">
                         <article class="col-md-4 text-left">
                             <h3 class="text-left">次回のこころごすぺる</h3>
@@ -164,7 +141,7 @@
                     </div>
                 </div>
             </section>
-                
+
             <section class="sub-wrap add-top-quarter project-info">
                 <div class="container">
                     <div class="row">
@@ -178,7 +155,7 @@
                 </div>
             </section>
 
-<!--
+            <!--
             <section class="sub-wrap add-top-half project-info">
                 <div class="container">
                     <div class="row">
@@ -197,13 +174,7 @@
 
             <!-- FOOTER
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-            <footer class="mastfoot container-fluid white-bg">
-                <div class="row">
-                    <article class="credits col-md-12">
-                        <p class="dark">Copyright © TheVision All rights Reseved</p>
-                    </article>
-                </div>
-            </footer>
+            <?php include (dirname(__FILE__) . '/inc/footer.html'); ?>
 
 
         </section>
@@ -228,9 +199,7 @@
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
 
 
-    <script src="/2019/javascripts/libs/common.js"></script>
-    <script src="/2019/javascripts/libs/bootstrap.min.js"></script>
-    <script src="/2019/javascripts/custom/main.js"></script>
+    <?php include (dirname(__FILE__) . '/inc/footer_js.html'); ?>
 
 
 
