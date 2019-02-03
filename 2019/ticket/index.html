@@ -7,8 +7,8 @@
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
     <meta charset="utf-8">
     <title>チケット購入｜こころごすぺる</title>
-    <meta content="こころゴスペル,心ゴスペル,こころごすぺる,こころゴスペル,なつゴスペル,ふゆゴスペル,はるゴスペル,ゴスコン,j-gospel,ゴスペルコンサート,ゴスペル,Gospel,やすらぎの歌,コンサート" name="keywords" />
-    <meta content="日本発のオリジナルゴスペル、J-gospelによる心暖まるコンサート。こころごすぺる " name="description" />
+    <meta name="keywords" content="こころごすぺる,ココロゴスペル,ゴスペルコンサート,ゴスペル,コンサート,Gospel,やすらぎの歌,風のひびき,J.GOSPEL,concert,座高円寺" />
+    <meta name="description" content="日本生まれのココロ温まるゴスペルコンサートです。" />
 
 
 <?php include ($_SERVER['DOCUMENT_ROOT'] . '/inc/header.html'); ?>
@@ -101,15 +101,15 @@
                                         <div class="alert alert-error  error color-bg" id="fmsg">
                                             <p class="red">メッセージを入力してください</p>
                                         </div>
-                                        <form name="myform" id="contactForm" action="/2019/contact/sendcontact.php" enctype="multipart/form-data" method="post" accesskey="utf-8">
+                                        <form name="myform" id="contactForm" action="/2019/ticket/sendcontact.php" enctype="multipart/form-data" method="post" accesskey="utf-8">
                                             <article>
                                                 <input type="text" placeholder="お名前" id="name" name="name" size="100" class="border-form font2">
                                             </article>
                                             <article>
-                                                <input type="text" placeholder="メールアドレス" name="email" id="email" size="30" class="border-form font2">
+                                                <input type="email" placeholder="メールアドレス" name="email" id="email" size="30" class="border-form font2">
                                             </article>
                                             <article>
-                                                <textarea placeholder="お問い合わせ内容" name="message" cols="40" rows="8" id="msg" class="border-form font2"></textarea>
+                                                <textarea type="text" placeholder="お問い合わせ内容" name="message" cols="40" rows="8" id="msg" class="border-form font2"></textarea>
                                                 <div class="add-top-quarter  text-left">
                                                     <button class="btn btn-otto btn-otto-color" id="submit" name="submit" type="submit">メッセージを送信</button>
                                                 </div>
