@@ -1,110 +1,168 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ja" lang="ja" dir="ltr">
+<!DOCTYPE html>
+<html lang="ja">
+
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<meta http-equiv="Content-Style-Type" content="text/css" />
-<meta http-equiv="Content-Script-Type" content="text/javascript" />
-<meta name="robots" content="index,follow" />
-<title>こころごすぺる</title>
-<meta content="こころゴスペル,心ゴスペル,こころごすぺる,こころゴスペル,なつゴスペル,ふゆゴスペル,はるゴスペル,ゴスコン,j-gospel,ゴスペルコンサート,ゴスペル,Gospel,やすらぎの歌,コンサート" name="keywords" />
-<meta content="日本発のオリジナルゴスペル、J-gospelによる心暖まるコンサート。こころごすぺる " name="description" />
-<link rel="SHORTCUT ICON" href="tlcccicon.png"><!--お気に入り用アイコン-->
-<link rel="apple-touch-icon" href="tlcccicon.png"/><!--iphone用リンクアイコン-->
-<link href="css/import3.css" rel="stylesheet" type="text/css" media="screen,tv,projection,print" />
-<link href="css/top.css" rel="stylesheet" type="text/css" />
-<script type="text/javascript" src="js/jquery-1.6.1.min.js"></script>
-<script type="text/javascript" src="js/jquery.effectchain.js"></script>
-<script>
-		jQuery(function($) {
-			$("body").effectChain({ target: "div" });
-		});
-</script>
+
+    <!-- Basic Page Info
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <meta charset="utf-8">
+    <title>こころごすぺる</title>
+    <meta name="keywords" content="こころごすぺる,ココロゴスペル,ゴスペルコンサート,ゴスペル,コンサート,Gospel,やすらぎの歌,風のひびき,J.GOSPEL,concert,座高円寺" />
+    <meta name="description" content="日本生まれのココロ温まるゴスペルコンサートです。" />
+
+    <?php include ($_SERVER['DOCUMENT_ROOT'] . '/inc/header.html'); ?>
 
 </head>
 
-<body id="toppage">
+<body>
 
-<div id="wrapper">
 
-<div id="header">
-<h1>こころごすぺる</h1>
-</div>
+    <!-- Preloader
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <div id="preloader">
+        <div id="status"></div>
+    </div>
 
-<div id="menu">
-<ul>
-  <li id="menu01"><a href="index.html"><img src="images/menu_01.png"  /></a></li>
-  <li id="menu02"><a href="cm.html"><img src="images/menu_02.png"  /></a></li>
-  <li id="menu03"><a href="group.html"><img src="images/menu_03.png"  /></a></li>
-  <li id="menu04"><a href="ticket.html"><img src="images/menu_04.png"  /></a></li>
-  <li id="menu05"><a href="album.html"><img src="images/menu_05.png"  /></a></li>
-  <li id="menu06"><a href="history.html"><img src="images/menu_06.png"  /></a></li>
-  <li id="menu07"><a href="contact.html"><img src="images/menu_07.png"  /></a></li>
-</ul>
-</div>
 
-<div class="ct_banner"><img src="images/190429main.jpg" width="940"  /></div>
-<!--<div class="ct_banner"><iframe width="940" height="528" src="https://www.youtube.com/embed/D4b9otRii0E" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></div>-->
-<br />
-<div class="ct_desc">
-<p style="float: right; margin-top: 10px;"><img src="images/map_05.png" width="306" height="230" /></p>
+    <?php include ($_SERVER['DOCUMENT_ROOT'] . '/inc/nav.html'); ?>
 
-	<div id="articleSummary">
-      <!--<h2>ライブ配信</h2>
-      
-      <dl>
-      <dt>ライブ配信</dt>
-        <dd>1名 1,000円 5名以上 3,000円</dd>
-        <dd>ライブ配信のお申し込みは、下記メールアドレスまで。</dd>
-        <dd>E-mail <a href="mailto:thevision.gospel@gmail.com">thevision.gospel@gmail.com</a></dd>
 
-        <dd>・都合により出演者、演目等が変更されることがあります。予めご了承ください。</dd>
-        <dd> </dd> -->
-        
 
-<h2>次回コンサート</h2>
-      
-      <dl>        
-        <dt>日　　時</dt>
-        <dd>2019年4月29日(月・休) 19:00開演 18:30開場</dd>
-        <dt>会　　場</dt>
-        <dd>座・高円寺2</dd>
-<!--        <dt>チケット</dt>
-        <dd>大人 前売1500円 当日2000円／中高生 前売1000円 当日1400円</br>／小学生 前売500円 当日700円　※未就学児の入場はお断り致します。</dd>-->
+    <!-- dummy overlay for whole page when sidebar is active -->
+    <section class="featured-mask-overlay"></section>
 
-        <!--<dt>チケット</dt>
-        <dd>前売り 大人　1,200円 / 中高生 500円/ 小学生以下 無料</dd>
-        <dt>料　金</dt>
-        <dd>当日　大人　 1,500円 / 中高生 700円/ 小学生以下 無料</dd>
-        <dt></dt>
-        <dd>インターネットでのご購入は<a href="http://sort.eplus.jp/sys/T1U14P0108P002203653P0050001P006001P0010165P0030001" target="_blank">e+(イープラス)</a>からご購入いただけます。<br />また、お電話、メールでのご予約も受け付けております。<br /></dd>
-        <dt>出　　演</dt>
-        <dd>Gifts, Gospel Seed, ラ・スポーザ, エルサレム,<br />
-        Come＆Worship, True Vine, Joy</dd>
-        <dt>チケット</dt>-->
-        <!--<dd>大人 1,000円 / 中高生 700円 / 小学生以下 無料</dd>-->
-       <!-- <dt>協　　賛</dt>
-        <dd>荒地に川ミュージック　<a href="http://arechinikawa.com" target="_blank">http://arechinikawa.com</a><br />雲の間にある虹出版　<a href="http://www.kumoniji.co.jp" target="_blank">http://www.kumoniji.co.jp</a></dd>-->
-        <dt>企画制作</dt>
-        <dd>TheVision</dd>
-        <dt id="info">お問い合わせ</dt>
-        <dd>The Vision<br />
-TEL 070-6462-5345<br />
-E-mail <a href="mailto:info@thevision.co.jp">info@thevision.co.jp</a><br />
-WebSite <a href="http://thevision.co.jp">http://thevision.co.jp</a></dd>
-      </dl>
-	</div>
-  </div>
-</div>
 
-<br />
-<br/><br />
-<div id="wrap_footer">
-<div id="footer">
-<p> (c) TheVision All rights Reseved</p>
-</div>
-</div>
 
-<?php include_once("analyticstracking.php") ?>
+
+    <section class="mastwrap-outer cd-main-content">
+
+        <!-- MASTER CONTENT
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+        <section id="ajax-content" class="mastwrap spaced-left">
+
+
+            <section class="sub-wrap add-top-half">
+                <div class="container">
+                    <div class="row">
+                        <article class="col-md-12">
+                            <h1 class="dark" id="topImg"></h1>
+                        </article>
+                    </div>
+                </div>
+            </section>
+
+            <section class="sub-wrap add-top-quarter project-info spOnly">
+                <div class="container">
+                    <div class="row">
+                        <article class="col-md-12">
+                            <ul class="foot-social text-center">
+                                <li><a href="https://www.instagram.com/kokorogospel/" target="_blank"><img alt="Instagram" title="" src="images/social/03.svg"></a></li>
+                                <li><a href="https://www.facebook.com/kokorogospel/" target="_blank"><img alt="facebook page" title="" src="images/social/02.svg"></a></li>
+                                <li><a href="#todo" target="_blank"><img alt="Twitter" title="" src="images/social/01.svg"></a></li>
+                            </ul>
+                        </article>
+                    </div>
+                </div>
+            </section>
+
+            <section class="sub-wrap add-top-half project-info">
+                <div class="container">
+                    <!--
+                    <div class="row">
+                        <article class="col-md-4 text-left">
+                            <h3 class="text-left">次回のこころごすぺる</h3>
+                            <div class="liner color-bg add-top-quarter"></div>
+                            <dl class="topList add-top-quarter">
+                                <dt>日　　時</dt>
+                                <dd>2019年4月29日(月・祝) 19:00開演 18:30開場</dd>
+                                <dt>会　　場</dt>
+                                <dd>座・高円寺2</dd>
+                                <dt>企画制作・お問い合わせ</dt>
+                                <dd>The Vision<br> TEL 070-6462-5345<br> WebSite <a href="http://thevision.co.jp" target="_blank">http://thevision.co.jp</a><br><a href="/contact/">E-mailでのお問い合わせ</a></dd>
+                            </dl>
+                        </article>
+                    </div>
+-->
+                    <div class="row">
+                        <article class="col-md-3 add-top-quarter text-left caption">
+                            <h2 class="project-title dark">Concert Information</h2>
+                            <div class="liner color-bg"></div>
+                        </article>
+                        <article class="col-md-9 add-top-quarter text-left">
+                            <dl class="topList">
+                                <dt>日　時</dt>
+                                <dd>2019年4月29日(月・祝) 19:00開演 18:30開場</dd>
+                                <dt>会　場</dt>
+                                <dd>座・高円寺2（〒166-0002　東京都杉並区高円寺北2-1-2）</dd>
+                                <dt>企画制作・お問い合わせ</dt>
+                                <dd>The Vision<br> TEL 070-6462-5345<br> WebSite <a href="http://thevision.co.jp" target="_blank">http://thevision.co.jp</a><br><a href="/contact/">E-mailでのお問い合わせ</a></dd>
+                            </dl>
+                        </article>
+                    </div>
+                </div>
+            </section>
+
+            <section class="sub-wrap add-top-quarter project-info">
+                <div class="container">
+                    <div class="row">
+                        <article class="col-md-12 add-top-quarter">
+                            <div class="liner color-bg"></div>
+                            <div id="googlemaps" class="halfheight add-top-quarter">
+                                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3239.8251159424663!2d139.65181195140454!3d35.7059209800913!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6018f2863da9a9d7%3A0xf35f2445cb0ef3be!2z5bqn44O76auY5YaG5a-6!5e0!3m2!1sja!2sjp!4v1548548123572" width="600" height="600" frameborder="0" style="border:0;" allowfullscreen></iframe>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+            </section>
+
+            <!--
+            <section class="sub-wrap add-top-half project-info">
+                <div class="container">
+                    <div class="row">
+                        <article class="col-md-9">
+                            <h3>前回のこころごすぺるCM</h3>
+                            <div class="frame-wrapper__video add-top-anEighth">
+                                <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/yZ7EwCldauE?rel=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+            </section>
+-->
+
+
+
+            <!-- FOOTER
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+            <?php include ($_SERVER['DOCUMENT_ROOT'] . '/inc/footer.html'); ?>
+
+
+        </section>
+        <!-- end : mastwrap -->
+
+
+
+
+
+
+    </section>
+    <!-- mastwrap-outer ends -->
+
+
+
+
+
+    <!-- End Document
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+
+    <!-- JS
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+
+
+    <?php include ($_SERVER['DOCUMENT_ROOT'] . '/inc/footer_js.html'); ?>
+
+
 
 </body>
+
 </html>
