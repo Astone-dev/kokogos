@@ -2,7 +2,7 @@
 
 // Define some constants
 define( "RECIPIENT_NAME", "the vision" ); //UPDATE THIS TO YOUR NAME
-define( "RECIPIENT_EMAIL", "sameltakuya@gmail.com" ); //UPDATE THIS TO YOUR EMAIL ID
+define( "RECIPIENT_EMAIL", "info@thevision.co.jp" ); //UPDATE THIS TO YOUR EMAIL ID
 define( "EMAIL_SUBJECT", "こころごすぺるHP チケットフォームから" ); //UPDATE THIS TO YOUR SUBJECT
 
 // Read the form values
