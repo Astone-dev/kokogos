@@ -179,3 +179,8 @@ ul.slimmenu.collapsed li > ul {
     padding: 0;
     list-style: none;
 }
+.menu-collapser h1 img{
+    position: relative;
+    top: 10px;
+    max-width: 114px;
+}
