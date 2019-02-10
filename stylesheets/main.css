@@ -1606,6 +1606,9 @@ dl.topList dd{
     width: 100%;
     height: 82.5vh;
 }
+#topImg_sp{
+    display: none;
+}
 @media (max-width: 1260px) {
     #topImg{
         background-image: url("/images/top/top_pc.png");
@@ -1619,13 +1622,16 @@ dl.topList dd{
 }
 @media (max-width: 768px) {
     #topImg{
+        display: none;
+    }
+    #topImg_sp{
         background-image: url("/images/top/top_sp.png");
         background-repeat: no-repeat;
         background-size: cover;
         display: block;
         width: 100%;
         height: 134vw;
-    }
+}
 }
 
 .frame-wrapper__video {
