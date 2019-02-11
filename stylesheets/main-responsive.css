@@ -156,9 +156,9 @@ there.
     padding: 10px 10px 10px 0;
   }
   ul.slimmenu.collapsed li .sub-collapser, ul.slimmenu > li > a:first-child{
-    font-size: 16px;
-    line-height: 23px;
-    padding: 10px 0;
+    font-size: 18px;
+    line-height: 32px;
+    padding: 12px 0;
   }
   ul.slimmenu{
     padding: 25px 25px 30px;
