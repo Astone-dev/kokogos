@@ -1663,6 +1663,27 @@ dl.topList dd{
     width: 35%;
 }
 
+#instafeed {
+    list-style: none;
+}
+
+ul#instafeed {
+  padding:0;
+  display: block;
+}
+
+ul#instafeed li{
+    float: left;width: 50%;
+}
+
+#instafeed li img{
+  width:100%;
+}
+
+
+
+/* spOnly */
+
 .spOnly{
     display: none;
 }
