@@ -1668,18 +1668,29 @@ dl.topList dd{
 }
 
 ul#instafeed {
-  padding:0;
-  display: block;
+    padding:0;
+    display: block;
 }
 
-ul#instafeed li{
-    float: left;width: 50%;
+ul#instafeed li {
+    float: left;
+    width: 25%;
 }
 
 #instafeed li img{
-  width:100%;
+    width: 100%;
+    height: 12vw;
 }
-
+@media (max-width: 768px) {
+    ul#instafeed li{
+        float: left;
+        width: 50%;
+    }
+    #instafeed li img{
+        width: 100%;
+        height: 45vw;
+    }
+}
 
 
 /* spOnly */
