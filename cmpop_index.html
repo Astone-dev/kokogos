@@ -30,6 +30,32 @@
 
     </script>
 
+    <link rel="stylesheet" href="/stylesheets/colorbox.css">
+    <style>
+        #cm-popup {
+            padding: 80px 0;
+            text-align: center;
+        }
+
+        .colorbox {
+            color: #08a945;
+            outline: 0;
+        }
+
+    </style>
+    <script defer src="/javascripts/libs/jquery.colorbox-min.js"></script>
+    <script>
+        $(function() {
+            jQuery('.colorbox').colorbox({
+                open: true,
+                iframe: true,
+                innerWidth: 650,
+                innerHeight: 350
+            });
+        });
+
+    </script>
+
 </head>
 
 <body>
@@ -50,6 +76,10 @@
     <section class="featured-mask-overlay"></section>
 
 
+    <section id="cm-popup">
+        <a href="//www.youtube.com/embed/yZ7EwCldauE?rel=0&amp;autoplay=1;" target="_blank" class="colorbox">動画ポップアップ</a>
+    </section>
+    <!-- ///wrapper -->
 
 
     <section class="mastwrap-outer cd-main-content">
@@ -92,7 +122,7 @@
                         </article>
                         <article class="col-md-9 add-top-quarter text-left">
                             <ul id="instafeed">
-                                
+
                             </ul>
                         </article>
                     </div>
