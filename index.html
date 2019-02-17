@@ -12,6 +12,24 @@
 
     <?php include ($_SERVER['DOCUMENT_ROOT'] . '/inc/header.html'); ?>
 
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="/javascripts/libs/instafeed.min.js"></script>
+
+    <script type="text/javascript">
+        var feed = new Instafeed({
+            clientId: 'c7dcac8ce6da4a759e635e2a199ce614',
+            get: 'user',
+            userId: '7090758797',
+            accessToken: '7090758797.c7dcac8.ee0c21c8c2c248619e9b5a875431d2ba',
+            links: true,
+            limit: 8, // 取得件数
+            resolution: 'standard_resolution', // thumbnail (default) - 150x150 | low_resolution - 306x306 | standard_resolution - 612x612
+            template: '<li><a href="{{link}}"><img src={{image}} alt={{caption}}></a></li>' // 画像URL：{{image}} リンク：{{link}} キャプションテキスト{{caption}} いいね数：{{likes}} コメント数：{{comments}}
+        });
+        feed.run();
+
+    </script>
+
 </head>
 
 <body>
@@ -65,24 +83,24 @@
                 </div>
             </section>
 
-            <section class="sub-wrap add-top-half project-info">
+            <section class="sub-wrap add-top-quarter project-info">
                 <div class="container">
-                    <!--
                     <div class="row">
-                        <article class="col-md-4 text-left">
-                            <h3 class="text-left">次回のこころごすぺる</h3>
-                            <div class="liner color-bg add-top-quarter"></div>
-                            <dl class="topList add-top-quarter">
-                                <dt>日　　時</dt>
-                                <dd>2019年4月29日(月・祝) 19:00開演 18:30開場</dd>
-                                <dt>会　　場</dt>
-                                <dd>座・高円寺2</dd>
-                                <dt>企画制作・お問い合わせ</dt>
-                                <dd>The Vision<br> TEL 070-6462-5345<br> WebSite <a href="http://thevision.co.jp" target="_blank">http://thevision.co.jp</a><br><a href="/contact/">E-mailでのお問い合わせ</a></dd>
-                            </dl>
+                        <article class="col-md-3 add-top-quarter text-left caption">
+                            <h2 class="project-title dark">Instagram</h2>
+                            <div class="liner color-bg"></div>
+                        </article>
+                        <article class="col-md-9 add-top-quarter text-left">
+                            <ul id="instafeed">
+                                
+                            </ul>
                         </article>
                     </div>
--->
+                </div>
+            </section>
+
+            <section class="sub-wrap add-top-half project-info">
+                <div class="container">
                     <div class="row">
                         <article class="col-md-3 add-top-quarter text-left caption">
                             <h2 class="project-title dark">Concert Information</h2>
@@ -96,7 +114,7 @@
                                 <dd>座・高円寺2<br> 〒166-0002　東京都杉並区高円寺北2-1-2
                                 </dd>
                                 <dt>お電話でのお問い合わせ</dt>
-                                <dd>
+                                <dd style="margin-bottom: 1.3rem;">
                                     <h3>070-6462-5345</h3>
                                 </dd>
                                 <dt>企画制作・お問い合わせ</dt>
