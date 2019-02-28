@@ -1587,7 +1587,7 @@ fieldset h1 {
 dl.topList{
     font-size: 1.6rem;
 }
-@media (max-width: 768px) {
+@media (max-width: 767px) {
     dl.topList{
         margin-top: 2rem;
     }
@@ -1620,7 +1620,7 @@ dl.topList dd{
         height: 55.5vh;
     }
 }
-@media (max-width: 768px) {
+@media (max-width: 767px) {
     #topImg{
         display: none;
     }
@@ -1681,7 +1681,7 @@ ul#instafeed li {
     width: 100%;
     height: 11.7vw;
 }
-@media (max-width: 768px) {
+@media (max-width: 767px) {
     ul#instafeed li{
         float: left;
         width: 50%;
@@ -1698,7 +1698,7 @@ ul#instafeed li {
     display: none;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 767px) {
     .spOnly{
         display: block;
     }
