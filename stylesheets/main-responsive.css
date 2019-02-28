@@ -32,7 +32,7 @@ there.
 }
 
 /* Larger than tablet */
-@media (max-width: 768px) {
+@media (max-width: 767px) {
   .container{
 /*
     width: 668px;
