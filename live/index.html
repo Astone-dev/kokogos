@@ -1,90 +1,81 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ja" lang="ja" dir="ltr">
+<!DOCTYPE html>
+<html lang="jp">
+
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<meta http-equiv="Content-Style-Type" content="text/css" />
-<meta http-equiv="Content-Script-Type" content="text/javascript" />
-<meta name="robots" content="index,follow" />
-<title>生中継| こころごすぺる</title>
-<meta content="こころゴスペル,心ゴスペル,こころごすぺる,こころゴスペル,なつゴスペル,ふゆゴスペル,はるゴスペル,ゴスコン,j-gospel,ゴスペルコンサート,ゴスペル,Gospel,やすらぎの歌,コンサート" name="keywords" />
-<meta content="日本発のオリジナルゴスペル、J-gospelによる心暖まるコンサート。こころごすぺる生中継 " name="description" />
-<link rel="SHORTCUT ICON" href="/tlcccicon.png"><!--お気に入り用アイコン-->
-<link rel="apple-touch-icon" href="/tlcccicon.png"/><!--iphone用リンクアイコン-->
-<link href="/css/import3.css" rel="stylesheet" type="text/css" media="screen,tv,projection,print" />
-<link href="/css/module.css" rel="stylesheet" type="text/css" media="screen,tv,projection,print" />
-<link href="/css/quality.css" rel="stylesheet" type="text/css" media="screen,tv,projection,print" />
-<link rel="stylesheet" href="/css/colorbox.css" />
-<script type="text/javascript" src="/js/jquery-1.6.1.min.js"></script>
-<script type="text/javascript" src="/js/jquery.effectchain.js"></script>
-<script type="text/javascript" src="/js/jquery.colorbox-min.js"></script>
-<script>
-		jQuery(function($) {
-			$("body").effectChain({ target: "div" });
-		});
-</script>
-<script>
-            $(document).ready(function(){
-            
-                //Examples of how to assign the ColorBox event to elements
-                $(".group1").colorbox({rel:'group1'});
-                $(".ajax").colorbox();
-                // YouTubeの動画のサイズは「共有」→「埋め込みコード」に表示されるサイズを参考
-                //$(".youtube").colorbox({iframe:true, innerWidth:425, innerHeight:344});
-                $(".youtube").colorbox({iframe:true, innerWidth:640, innerHeight:360});
-                //Example of preserving a JavaScript event for inline calls.
-                $("#click").click(function(){ 
-                    $('#click').css({"background-color":"#f00", "color":"#fff", "cursor":"inherit"});
-                    return false;
-                });
-                
-            });
-</script>
+
+    <!-- Basic Page Info
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <meta charset="utf-8">
+    <title>ライブ配信｜こころごすぺる</title>
+    <meta name="keywords" content="こころごすぺる,ココロゴスペル,ゴスペルコンサート,ゴスペル,コンサート,Gospel,やすらぎの歌,風のひびき,J.GOSPEL,concert,座高円寺" />
+    <meta name="description" content="日本生まれのココロ温まるゴスペルコンサートです。" />
+
+
+<?php include ($_SERVER['DOCUMENT_ROOT'] . '/inc/header.html'); ?>
+
+
 </head>
 
 <body>
 
-<div id="wrapper">
 
-<div id="header">
-<h1>こころごすぺる</h1>
-</div>
+    <!-- Preloader
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <div id="preloader">
+        <div id="status"></div>
+    </div>
 
-<div id="menu">
-<ul>
-  <li id="menu01"><a href="/index.html"><img src="/images/menu_01.png"  /></a></li>
-  <li id="menu02"><a href="/cm.html"><img src="/images/menu_02.png"  /></a></li>
-  <li id="menu03"><a href="/group.html"><img src="/images/menu_03.png"  /></a></li>
-  <li id="menu04"><a href="/ticket.html"><img src="/images/menu_04.png"  /></a></li>
-  <li id="menu05"><a href="/album.html"><img src="/images/menu_05.png"  /></a></li>
-  <li id="menu06"><a href="/history.html"><img src="/images/menu_06.png"  /></a></li>
-  <li id="menu07"><a href="/contact.html"><img src="/images/menu_07.png"  /></a></li>
-</ul>
-</div>
 
-<div id="navi">
-<a href="/index.html">ホーム</a>　＞　生中継</div>
+    <?php include ($_SERVER['DOCUMENT_ROOT'] . '/inc/nav.html'); ?>
 
-<div id="content" style="text-align: center;">
 
-<div id="cmNav" style="margin:20px auto 0 auto; width:770px;">
-	<div style="text-align:left;">
-		<p style="font-size:150%; font-weight:bold">2018年12月24日(月・休) 座・高円寺2 19:00～</p>
-	</div>
+
+    <section class="mastwrap-outer cd-main-content">
+
+        <!-- MASTER CONTENT
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+        <section id="ajax-content" class="mastwrap spaced-left">
+
+            <section class="sub-wrap add-top-quarter pad-bottom-half about white-bg">
+                <div class="container">
+                    <div class="row">
+                        <article class="col-md-12 text-left caption">
+                            <h1 class="black add-top-half">ライブ配信</h1>
+                            <div class="liner color-bg"></div>
+                            <h3>2019年4月29日(月・休) 座・高円寺2 19:00～</h3>
 <iframe width="640" height="360" src="https://www.youtube.com/embed/zmYEkfSLMQQ" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                        </article>
+                    </div>
+                </div>
+            </section>
 
-<p>途切れる場合は、ブラウザの再読み込みを何度か行ってみてください。</p>
-</div>
 
- <p style="height:100px; clear:both;">&nbsp;</p>
-</div>
+            <!-- FOOTER
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+<?php include ($_SERVER['DOCUMENT_ROOT'] . '/inc/footer.html'); ?>
 
-<div id="wrap_footer">
-<div id="footer">
-<p>(c) TheVision All rights Reseved</p>
-</div>
-</div>
-</div>
 
-<?php include_once("../analyticstracking.php") ?>
+
+        </section>
+        <!-- end : mastwrap -->
+
+
+
+    </section>
+    <!-- mastwrap-outer ends -->
+
+
+
+    <!-- End Document
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+
+    <!-- JS
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+
+    <?php include ($_SERVER['DOCUMENT_ROOT'] . '/inc/footer_js.html'); ?>
+
+
+
 </body>
+
 </html>
